@@ -1,1 +1,12 @@
 app shitcup
+
+per associare all'svn di github :
+…or create a new repository on the command line
+echo "# shitcup" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/MassimoEsperto/shitcup.git
+git push -u origin master
+
+poi ho aperto il folder da atom
